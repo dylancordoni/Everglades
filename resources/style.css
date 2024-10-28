@@ -37,7 +37,7 @@ body {
 	border: 1px solid black;
 }
 
-nav > ul {
+#nav-list {
 	display: flex;
 	flex-direction: row;
 	align-items: left;
@@ -47,7 +47,7 @@ nav > ul {
 	list-style-type: none;
 }
 
-nav > ul > li {
+#nav-list > li {
 	display: flex;
 	align-items: left;
 	justify-content: left;
@@ -63,7 +63,7 @@ nav > ul > li {
 	text-decoration: none;
 }
 
-a:hover{
+.nav-link:hover{
 	background-color: rgb(0, 115, 0);
 	color: white;
 }
@@ -98,6 +98,15 @@ footer {
 	font-size: .75em;
 }
 
+footer > p {
+	margin: auto 5px;
+	text-align: right;
+}
+
+#footer-link {
+	text-decoration: none;
+}
+
 @media screen and (max-width: 600px) {
 
 	#title-heading {
@@ -123,6 +132,7 @@ footer {
 	footer {
 		font-size: .5em;
 	}
+	
 }
 
 @media screen and (orientation: landscape) and (max-height: 600px){
