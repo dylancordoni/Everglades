@@ -125,3 +125,30 @@ footer {
 	}
 }
 
+@media screen and (orientation: landscape) and (max-height: 600px){
+
+	#title-heading {
+		font-size: 3em;
+	}
+	
+
+	.info {
+		margin: 50px 50px;
+	}
+
+
+	h2 {
+		padding: 25px 50px;
+		font-size: 1em;
+	}
+	
+	.description {
+		margin: 15px 25px;
+		font-size: .75em;
+	}
+	
+	footer {
+		font-size: .5em;
+	}
+}
+
